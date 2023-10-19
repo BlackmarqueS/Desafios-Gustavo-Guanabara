@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/iconeimagem.png" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+   <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência 😁</p> 
+    <br>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/300px.jpg" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/700px.jpg" type="image/png">
+        <img src="imagens/1000px.jpg" alt="1000px">
+
+        </picture>
+   
+
+</body>
+</html>
