@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* NÃO ESQUECER DO CHARSET */
+
+.corpo{
+    background-image: linear-gradient(to right, #F22259, #D92579, #BF2AA6, #5743D9, #F2AA52 );
+    background-attachment: fixed;
+}
+
+.h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
